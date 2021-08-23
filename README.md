@@ -20,11 +20,12 @@ Install Node.JS **v12.16.1** first
 npm install
 # we use webpack DllReference to decrease the build time,
 # this command only needs execute once unless you upgrade the package in build/webpack.dll.conf.js
-NODE_ENV=development npm run build:dll
+set NODE_ENV=development
+npm run build:dll
 # Small language fixed
 cp node_modules/echarts/lib/langEN.js node_modules/echarts/lib/lang.js 
 # the dev-server will set proxy table to your backend
-TARGET=https://luyencode.net npm run dev
+set TARGET=0.0.0.0
 
 # serve with hot reload at localhost:8080
 npm run dev
@@ -45,12 +46,12 @@ Modern browsers and Internet Explorer 10+.
 ## Attention
 
 ```
-#custom JavaScript or CSS   自定义JavaScript/CSS
+#custom JavaScript or CSS
 ./src/styles
 
-#page    修改界面
+#page
 ./src/pages
 
-#language    语言文件
+#language
 ./src/i18n
 ```
