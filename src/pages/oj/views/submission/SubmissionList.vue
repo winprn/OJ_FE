@@ -37,19 +37,6 @@
         <Pagination :total="total" :page-size="limit" @on-change="changeRoute" :current.sync="page"></Pagination>
       </Panel>
     </div>
-    <div v-if="!contestID" id="right-column">
-      <Panel shadow style="padding-top: 0px;padding-bottom: 10px;min-height: 400px;">
-        <div slot="title" style="margin-left: -10px;margin-bottom: -10px;">{{$t('m.Ranklist_Title')}}</div>
-        <ol style="margin-left: 40px;margin-bottom: 20px;">
-          <li v-for="u in dataRank" :key="u.id" style="margin-top:4px;">
-            <a :style="'font-weight: 600;color: ' + u.color" :href="'/user-home?username=' + u.user.username"
-               :title=" u.title + ' ' + u.user.username">
-            {{u.user.username}}
-            </a> - {{u.accepted_number}} bài
-          </li>
-        </ol>
-      </Panel>
-    </div>
   </div>
 </template>
 

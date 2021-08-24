@@ -64,9 +64,9 @@ body {
   margin-top: -27.5px;
 }
 #app-loader .square {
-  background: #2d8cf0;
-  width: 15px;
-  height: 15px;
+  background: #06246F;
+  width: 20px;
+  height: 20px;
   float: left;
   top: -10px;
   margin-right: 5px;
@@ -110,6 +110,11 @@ body {
   -webkit-animation-delay: 1.5s;
   -moz-animation-delay: 1.5s;
   animation-delay: 1.5s;
+}
+#app-loader .square:nth-child(7) {
+  -webkit-animation-delay: 0.0s;
+  -moz-animation-delay: 0.0s;
+  animation-delay: 0.0s;
 }
 #app-loader .square:nth-child(8) {
   -webkit-animation-delay: 0.3s;
