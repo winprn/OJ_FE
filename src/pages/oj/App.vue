@@ -103,7 +103,7 @@
     z-index: 1;
   }
 
-  .theme(@ivu-btn-info: #466FD5, @color: #123EAB, @word2: #2A4380, @color2: rgba(255, 255, 255, 0.7)) {
+  .theme(@ivu-btn-info: #06246F, @color: #06246F, @word2: #fff, @color2: rgba(255, 255, 255, 0.7)) {
     .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu-active{
       color: @color;
       border-bottom: 2px solid @color;
@@ -136,7 +136,7 @@
     }
 	  .ivu-btn-info:hover {
       background-color: @word2;
-      border-color: @word2;
+      border-color: @color;
     }
 	  .ivu-card {
       background: @color2;
@@ -147,7 +147,7 @@
 	  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover{
 	    color: @color;
 		  border-bottom: 2px solid @color;
-	  }
+    }
   }
 
   .theme1{  //胖次蓝
@@ -170,4 +170,39 @@
     .theme(#00b894, #00b894, #55efc4, rgba(129, 236, 236, 0.35))
   }
 
+  .ivu-menu-light{
+    background: #06246F;
+  }
+
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item{
+    height: inherit;
+    line-height: inherit;
+    border-bottom: 2px solid transparent;
+    color: #fff;
+  }
+
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu{
+    color: #fff;
+  }
+
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover{
+    color: #466FD5;
+  }
+
+  .ivu-btn{
+    color: #fff;
+    background-color: #06246F;
+    border-color: #fff;
+  }
+
+  .ivu-btn:hover{
+    color: #06246F;
+    background-color: #fff;
+    border-color: #06246F;
+  }
+
+  .ivu-switch-checked{
+    border-color: #06246F;
+    background-color: #06246F;
+  }
 </style>
