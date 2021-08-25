@@ -177,16 +177,33 @@
   .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item{
     height: inherit;
     line-height: inherit;
-    border-bottom: 2px solid transparent;
+    border-bottom: 0;
     color: #fff;
+    border-radius: 15px;
   }
 
   .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu{
     color: #fff;
+    border-bottom: 0;
+    border-radius: 15px;
   }
 
   .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover{
-    color: #466FD5;
+    color: #06246F;
+    border: 0;
+    background: #fff;
+    border-radius: 15px;
+  }
+
+  .ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item:hover{
+    background-color: #06246F;
+    color: #fff;
+    border-bottom: 0px;
+    border-radius: 0;
+  }
+
+  .ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item{
+    border-radius: 0;
   }
 
   .ivu-btn{
