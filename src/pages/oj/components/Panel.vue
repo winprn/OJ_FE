@@ -41,7 +41,7 @@
 </script>
 
 <style lang="less">
-  @import (reference) '../../../styles/common.less';
+  @import (reference) '../../../styles/lhpoj-light.less';
 
   .panel-title {
     .section-title;
