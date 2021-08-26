@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <Menu theme="" mode="horizontal" @on-select="handleRoute" :active-name="activeMenu" :class="oj-menu">
+    <Menu theme="light" mode="horizontal" @on-select="handleRoute" :active-name="activeMenu" :class="oj-menu">
       <!-- <div class="logo"><span>{{website.website_name}}</span></div> -->
       <!-- <div class="logo" title="Luyện Code Online"><a href="/"><img src="/static/img/logo-ny.png" height="60px" alt="Luyện Code Online - Học lập trình tương tác trực tuyến"></a></div> -->
       <div class="logo" title="Lê Hồng Phong Online Judge"><a href="/"><img src="/static/img/logo.png" height="60px" alt="Chúng tôi lười"></a></div>
