@@ -122,11 +122,9 @@
       background-color: @color;
 		  border-color: @color;
     }
-
     li.ivu-page-item.ivu-page-item-active > a {
       color: #fff;
     }
-
   	.ivu-page-item:hover {
       border-color: @color;
     }
@@ -170,6 +168,7 @@
     .theme(#00b894, #00b894, #55efc4, rgba(129, 236, 236, 0.35))
   }
 
+
   .ivu-menu-light{
     background: #06246F;
   }
@@ -196,8 +195,8 @@
   }
 
   .ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item:hover{
-    background-color: #06246F;
-    color: #fff;
+    background-color: #f8f8f8;
+    color: #06246F;
     border-bottom: 0px;
     border-radius: 0;
   }
