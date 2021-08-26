@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <Menu theme="light" mode="horizontal" @on-select="handleRoute" :active-name="activeMenu" :class="oj-menu">
+    <Menu theme="" mode="horizontal" @on-select="handleRoute" :active-name="activeMenu" :class="oj-menu">
       <!-- <div class="logo"><span>{{website.website_name}}</span></div> -->
       <!-- <div class="logo" title="Luyện Code Online"><a href="/"><img src="/static/img/logo-ny.png" height="60px" alt="Luyện Code Online - Học lập trình tương tác trực tuyến"></a></div> -->
       <div class="logo" title="Lê Hồng Phong Online Judge"><a href="/"><img src="/static/img/logo.png" height="60px" alt="Chúng tôi lười"></a></div>
@@ -198,6 +198,59 @@
       font-size: 18px;
       font-weight: 600;
     }
+  }
+
+  .ivu-menu-light{
+    background: #06246F;
+  }
+
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item{
+    height: inherit;
+    line-height: inherit;
+    border-bottom: 0;
+    color: #fff;
+    border-radius: 15px;
+  }
+
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu{
+    color: #fff;
+    border-bottom: 0;
+    border-radius: 15px;
+  }
+
+  .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover, .ivu-menu-light.ivu-menu-horizontal .ivu-menu-submenu:hover{
+    color: #06246F;
+    border: 0;
+    background: #fff;
+    border-radius: 15px;
+  }
+
+  .ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item:hover{
+    background-color: #f8f8f8;
+    color: #06246F;
+    border-bottom: 0px;
+    border-radius: 0;
+  }
+
+  .ivu-menu-horizontal .ivu-menu-submenu .ivu-select-dropdown .ivu-menu-item{
+    border-radius: 0;
+  }
+
+  .ivu-btn{
+    color: #fff;
+    background-color: #06246F;
+    border-color: #fff;
+  }
+
+  .ivu-btn:hover{
+    color: #06246F;
+    background-color: #fff;
+    border-color: #06246F;
+  }
+
+  .ivu-switch-checked{
+    border-color: #06246F;
+    background-color: #06246F;
   }
   
 </style>
