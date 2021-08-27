@@ -1,6 +1,6 @@
 <template>
   <Row type="flex" :gutter="18">
-    <Col :span=19>
+    <Col :span=19 id="list">
       <Panel shadow>
         <div slot="title">{{$t('m.Problem_List')}}</div>
         <div slot="extra">
@@ -310,6 +310,9 @@
 </script>
 
 <style scoped lang="less">
+  #list{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  }
   .taglist-title {
     margin-left: -10px;
     margin-bottom: -10px;
