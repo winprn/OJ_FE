@@ -78,7 +78,7 @@
         days: 0
       }
     },
-    mounted () {
+    /* mounted () {
       this.init()
       this.timer = setInterval(() => {
         this.setNowTimes()
@@ -87,7 +87,7 @@
       this.isSighin()
       this.getProblemList()
       this.getTagList()
-    },
+    }, */
     methods: {
       init () {
         if (this.isContest) {
