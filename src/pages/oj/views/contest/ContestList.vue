@@ -1,6 +1,6 @@
 <template>
   <Row type="flex">
-    <Col :span="24">
+    <Col :span="24" id="shadow">
     <Panel id="contest-card" shadow>
       <div slot="title">{{query.rule_type === '' ? this.$i18n.t('m.All') : query.rule_type}} {{$t('m.Contests').toLowerCase()}}</div>
       <div slot="extra">
@@ -185,6 +185,9 @@
   }
 </script>
 <style lang="less" scoped>
+  #shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+  }
   #contest-card {
     #keyword {
       width: 80%;
