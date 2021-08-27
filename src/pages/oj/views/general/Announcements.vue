@@ -78,7 +78,7 @@
         days: 0
       }
     },
-    mounted () {
+    /* mounted () {
       this.init()
       this.timer = setInterval(() => {
         this.setNowTimes()
@@ -87,7 +87,7 @@
       this.isSighin()
       this.getProblemList()
       this.getTagList()
-    },
+    }, */
     methods: {
       init () {
         if (this.isContest) {
@@ -152,6 +152,7 @@
   .announcements-container {
     margin-top: -10px;
     margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     li {
       padding-top: 15px;
       list-style: none;
