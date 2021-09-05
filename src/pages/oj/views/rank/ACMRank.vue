@@ -215,7 +215,7 @@
     }
   }
 </script>
-
+ n           n        hbbaaVGY
 <style scoped lang="less">
   .echarts {
     margin: 0 auto;
