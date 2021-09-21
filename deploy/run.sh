@@ -20,4 +20,4 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-exec nginx -c home/OJ_FE/deploy/nginx.conf
+exec nginx -c /home/OJ_FE/deploy/nginx.conf
