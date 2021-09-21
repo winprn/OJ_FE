@@ -21,7 +21,7 @@ import katex from '@/plugins/katex'
 import filters from '@/utils/filters.js'
 
 import ECharts from 'vue-echarts/components/ECharts.vue'
-import 'echarts/lib/langEn.js'
+// import 'echarts/lib/langEn.js'
 import 'echarts/lib/chart/bar'
 import 'echarts/lib/chart/line'
 import 'echarts/lib/chart/pie'
