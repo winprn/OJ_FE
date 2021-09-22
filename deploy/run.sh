@@ -1,6 +1,6 @@
 #!/bin/sh
 
-base=/home/OJ_FE
+base=/OJ_FE
 
 build_vendor_dll()
 {
@@ -10,8 +10,7 @@ build_vendor_dll()
   fi
 }
 cd $base
-# npm install --registry=https://registry.npm.taobao.org && \
-npm install --registry=https://registry.npmjs.org && \
+npm install --registry=https://registry.npm.taobao.org && \
 build_vendor_dll && \
 npm run build
 
@@ -20,4 +19,4 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-exec nginx -c /home/OJ_FE/deploy/nginx.conf
+exec nginx -c /OJ_FE/deploy/nginx.conf
