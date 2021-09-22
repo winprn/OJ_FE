@@ -20,6 +20,12 @@ Fork from [QingdaoU/OnlineJudgeFE](https://github.com/QingdaoU/OnlineJudgeFE)
 
 ## Get Started
 
+### Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+### NodeJS
+
 Install Node.JS **v12.16.1** first
 
 ```
@@ -37,7 +43,7 @@ set TARGET=0.0.0.0
 npm run dev
 ```
 
-Docker Container
+### Docker
 
 ```
 # build image
@@ -45,7 +51,6 @@ docker build -t OJ_FE .
 
 # run container
 docker run -td -e PORT=6080 -p 6080:6080 OJ_FE
-
 ```
 
 ## Screenshots

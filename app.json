@@ -1,0 +1,10 @@
+{
+  "name": "OJ_FE",
+  "description": "OnlineJudge FrontEnd",
+  "keywords": ["OnlineJudge", "Docker"],
+  "env": {
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
